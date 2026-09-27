@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Лабораторна робота №1 </title>
+    </head>
+    <body>
+        <h1> Проєктування та розробка веб-застосунків </h1>
+        <h2> Лабораторна робота №1 </h2>
+        <h2> Виконала студентка групи КН-31, Станкевич Катерина </h2>
+        <h3> Варіант №1 </h3>
+        <hr />
+        <ul> 
+            <li>
+                <a href="table.html"> Таблиці </a>
+            </li>
+            <li>
+                <a href="forms.html"> Форми </a>
+            </li>
+        </ul>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title> Таблиця </title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <h1> Лабораторна робота №1 </h1>
+        <h2> Робота з таблицями </h2>
+        <h2> Виконала студентка групи КН-31, Станкевич Катерина </h2>
+        <a href="index.html"> На головну </a>
+        <h3> Завдання </h3>
+        <p> Описати веб-сторінку, що містить інформацію про елементи конструкцій, їх об'ємну вагу та навантаження. Таблиця виглядає наступним чином: </p>
+        <img src="tabl.jpg" alt="Таблиця" width="30%">
+        <br>
+        <table width="70%" border="1" bordercolor="black">
+            <caption><i>Таблиця 1.2</i><b> Таблиця навантажень елементів конструкцій</b></caption>
+            <thead>
+                <tr bgcolor="green">
+                    <th rowspan="2">№№</th>
+                    <th rowspan="2">Тип<br>конструкції</th>
+                    <th rowspan="2">Найменування елементів конструкцій</th>
+                    <th rowspan="2">Об'ємна вага<br>матеріалу,<br>кгс/м³</th>
+                    <th colspan="4">Навантаження</th>
+                </tr>
+                <tr>
+                    <th>Од.<br>вим.</th>
+                    <th>Нормативне</th>
+                    <th>γ<sub>f</sub></th>
+                    <th>Розрахункове</th>
+                </tr>
+            </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td rowspan="9">Стіни</td>
+                    <td>З/б колона на 1 м² стіни</td>
+                    <td>2500<br>(2200)</td>
+                    <td>кгс</td>
+                    <td>213,3<br>(187,7)</td>
+                    <td>1,1</td>
+                    <td>234,6<br>(206,5)</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Стінова полістирольна панель</td>
+                    <td>40</td>
+                    <td>кгс/м²</td>
+                    <td>7,8</td>
+                    <td>1,2</td>
+                    <td>9,3</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Цементно-піщана штукатурка з 2-х боків (δ = 2 м × 0,03 м = 0,06 м) на 1 м² стіни (значення γ наведені для двох зафіксованих умов)</td>
+                    <td>1800</td>
+                    <td>кгс/м²</td>
+                    <td>108</td>
+                    <td>1,3 (1,2)</td>
+                    <td>
+                        140,4<br>
+                        129,6
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>1 м² стіни</td>
+                    <td></td>
+                    <td>кгс/м²</td>
+                    <td>389,1</td>
+                    <td></td>
+                    <td>384,3</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>погонна довжина 1м з/б колони (0,16 м × 0,16 м)</td>
+                    <td>2500</td>
+                    <td>кгс/м</td>
+                    <td>64,0</td>
+                    <td>1,1</td>
+                    <td>70,4</td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>погонна довжина 1м бетонної колони</td>
+                    <td>2200</td>
+                    <td>кгс/м</td>
+                    <td>56,3</td>
+                    <td>1,1</td>
+                    <td>62,0</td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>погонна довжина 1м з/б поясу на рівні перекриття (0,22 м × 0,24 м)</td>
+                    <td>2500</td>
+                    <td>кгс/м</td>
+                    <td>132</td>
+                    <td>1,1</td>
+                    <td>145,2</td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td>погонна довжина 1м стіни в межах поверху (Н = 2,8 м) з урахуванням з/б поясу та без урахування отворів</td>
+                    <td></td>
+                    <td>кгс/м</td>
+                    <td>974,5</td>
+                    <td>1,16</td>
+                    <td>1129,0</td>
+                </tr>
+
+                <tr>
+                    <td>9</td>
+                    <td>погонна довжина 1 м стіни в межах висоти поверху (Н = 2,56 м) без урахування з/б поясу та отворів</td>
+                    <td></td>
+                    <td>кгс/м</td>
+                    <td>842,5</td>
+                    <td>1,17</td>
+                    <td>983,8</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title> Форма </title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <h1> Лабораторна робота №1 </h1>
+        <h2> Робота з таблицями </h2>
+        <h2> Виконала студентка групи КН-31, Станкевич Катерина </h2>
+        <a href="index.html"> На головну </a>
+        <h3> Завдання </h3>
+        <p> Необхідно розробити форму для реєстрації учасника художнього форуму. </p>
+        <ul>
+            <li>дані про реєстрацію, включають логін, пароль, електрону адресу, улюбленого художника (обирається зі списку);</li>
+            <li>особисті дані, включають улюблений колір, посилання на веб-сторінку з власним портфоліо, улюблений жанр у живописі (обирається зі списку),докладний опис власних художніх вподобань.</li>
+        </ul>
+        <form action="" method="POST">
+            <fieldset>
+                <legend>Дані про реєстрацію</legend>
+                <label>Логін
+                    <input id="login" type="text">
+                </label>
+                <label>Пароль
+                    <input id="password" type="text">
+                </label>
+                <label>Електронна адреса
+                    <input id="email" type="text">
+                </label>
+                <label>Улюблений художник
+                    <select>
+                        <option>Вінсент ван Гог</option>
+                        <option>Клод Моне</option>
+                        <option>Пабло Пікассо</option>
+                        <option>Леонардо да Вінчі</option>
+                        <option>Сальвадор Далі</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Особисті дані</legend>
+                <label>Улюблений колір
+                    <input id="color" type="color">
+                </label>
+                <label>Посилання на портфоліо
+                    <input id="portfolio" type="url">
+                </label>
+                <label>Улюблений жанр у живописі
+                    <select>
+                        <option>Портрет</option>
+                        <option>Пейзаж</option>
+                        <option>Натюрморт</option>
+                        <option>Абстракція</option>
+                        <option>Сюрреалізм</option>
+                        <option>Реалізм</option>
+                    </select>
+                </label>
+                <label>Художні вподобання
+                    <textarea rows="5" cols="50"></textarea>
+                </label>
+            </fieldset>
+            <button type="submit">Відправити</button>
+        </form>
+    </body>
+</html>
